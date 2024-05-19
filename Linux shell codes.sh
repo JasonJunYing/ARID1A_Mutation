@@ -3,5 +3,5 @@
 #Motif Analysis
 findMotifsGenome.pl Res_Vsh183_peaks.bed hg38
 
-#liftover (chain downloaded from ucsc)
+#liftover (chain downloaded from https://hgdownload.cse.ucsc.edu/goldenPath/hg19/liftOver/hg19ToHg38.over.chain.gz)
 liftOver H3K4me1_HUH7.enhancer.bedgraph hg19ToHg38.over.chain H3K4me1_HUH7.enhancer.hg38.bedgraph H3K4me1_HUH7.unmatched.bedgraph
