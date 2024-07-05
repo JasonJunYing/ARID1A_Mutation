@@ -1,8 +1,5 @@
 #Linux shell codes
 
-### Motif Analysis
-findMotifsGenome.pl Res_Vsh183_peaks.bed hg38
-
 ### liftover (chain downloaded from https://hgdownload.cse.ucsc.edu/goldenPath/hg19/liftOver/hg19ToHg38.over.chain.gz)
 liftOver GSE89212_enhancers.bed hg19ToHg38.over.chain GSE89212_enhancers_hg38.bed GSE89212_enhancers_unmatched.bed
 
