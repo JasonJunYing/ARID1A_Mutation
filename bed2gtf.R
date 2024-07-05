@@ -1,5 +1,4 @@
 # R script to convert bed to gtf
-## xw251, 10Mar2022
 ## input: bed file
 ## output: gtf file
 
