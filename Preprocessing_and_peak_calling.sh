@@ -48,5 +48,5 @@ for FILE in *.processed.bam
 cat *.bed > all.bed
 bedtools sort -i all.bed > all_sorted.bed
 bedtools merge -i all_sorted.bed > all_merged.bed
-(bed->gtf by Rscript)
+(bed->gtf by Rscript : bed2gtf.R)
 annotatePeaks.pl all_merged.bed hg38 > annedpeak.txt
