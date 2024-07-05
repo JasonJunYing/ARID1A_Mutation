@@ -3,7 +3,7 @@ library(ggplot2)
 
 #Plot logP
 
-motifs <- read.delim('../Processed/HomerMotif/Res_Vsh_V/knownResults.txt')
+motifs <- read.delim('./Motif/knownResults.txt')
 motifs$Name <- strsplit2(motifs$Motif.Name,'\\/')[,1]
 motifs$logP <- (-motifs$Log.P.value)
 motifs <- motifs[order(motifs$Log.P.value),]
