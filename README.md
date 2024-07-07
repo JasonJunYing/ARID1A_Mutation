@@ -1,7 +1,7 @@
 # ARID1A_Mutation
 ## Deciphering the regulatory mechanisms and biological implications of ARID1A C-terminal missense mutations in cancer
 
-We combined ATAC-seq and ChIP-seq to investigate the influence of ARID1A mutation on the regulatory landscape in Huh7 cells using differential analysis and motif enrichment. Raw sequencing data and bed files were uploaded to GEO database (GSE254864 and GSE254865). The procedures of preprocessing and peak calling can be found in: [Preprocessing_and_peak_calling.sh](./Preprocessing_and_peak_calling.sh).  
+We combined ATAC-seq and ChIP-seq to investigate the influence of ARID1A mutation on the regulatory landscape in Huh7 cells using differential analysis and motif enrichment. Raw sequencing data and bed files were uploaded to GEO database ([GSE254864](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE254864) and [GSE254865](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE254865)). The procedures of preprocessing and peak calling can be found in: [Preprocessing_and_peak_calling.sh](./Preprocessing_and_peak_calling.sh).  
 
 1. ATAC-seq analysis : [Diffbind_ATAC.R](./Diffbind_ATAC.R)  
 (1) Calculate binding matrix  
