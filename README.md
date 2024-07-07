@@ -5,10 +5,10 @@ We combined ATAC-seq and ChIP-seq to investigate the influence of ARID1A mutatio
 1. ATAC-seq analysis : [Diffbind_ATAC.R](./Diffbind_ATAC.R)
 
 (1) Calculate binding matrix 
- (2) Normalization (method: libsize as default)
- (3) Differential enrichment analysis (Figure 6B)
- (4) Peak region annotation
- (5) Define rescued region
+(2) Normalization (method: libsize as default)
+(3) Differential enrichment analysis (Figure 6B)
+(4) Peak region annotation
+(5) Define rescued region
 
 3. ChIP-seq analysis : [Diffbind_CHIP.R](./Diffbind_CHIP.R)
    (1) Calculate binding matrix
