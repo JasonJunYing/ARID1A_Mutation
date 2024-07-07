@@ -14,7 +14,7 @@ We combined ATAC-seq and ChIP-seq to investigate the influence of ARID1A mutatio
    (1) Calculate binding matrix  
    (2) Normalization (method: libsize as default)  
    (3) Differential enrichment analysis  
-   (4) Peak region annotation (Figure 6C)  
+   (4) Peak region annotation (Figure 6C) (Composition_barplot.R)[./Composition_barplot.R]
    (5) Define rescued region (Figure 6D)  
    (6) Enhancer annotation (using the published H3K27ac and H3K4me3 enhancer regions of Huh7 cells (GSE89212) [Enhancer_annotation.sh](Enhancer_annotation.sh))  
    (7) Motif enrichment analysis (Figure 6K) [Motif_Analysis.sh](Motif_Analysis.sh); [MotifAnalysis_Resc.R](MotifAnalysis_Resc.R)  
